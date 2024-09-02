@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#title{
+    margin-bottom: -2px;
+    color: white; 
+    text-shadow: 
+        -2px -2px 0 #ff4081, 
+         2px -2px 0 #ff4081, 
+        -2px  2px 0 #ff4081, 
+         2px  2px 0 #ff4081; 
+    letter-spacing: 0.5mm;
+}
+
+#text{
+    font-size: medium;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e73370;
+}
+
+#imagenGato {
+    margin-top: 20px;
+}
+
+#imagenGato img {
+    /* max-width: 600px; */
+    width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#razaGato{
+    margin-top: 20px;
+}
